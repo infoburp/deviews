@@ -10,18 +10,24 @@ upload a new animated image to be vectorised
 
 upload a new video to be vectorised
 
+view gallery
+
 
 client webworker:
 
-download work unit
+while (client connected) 
+{
+  download work unit
 
-process work
+  process work
 
-upload work unit results
-
+  upload work unit results
+}
 
 work unit types:
 
-vectorise image 
+  vectorise image 
 
-split animated image into frames
+  split animated image into frames
+
+  split video into frames
