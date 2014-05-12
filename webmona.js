@@ -1,3 +1,14 @@
+
+//download image to be vectorised
+
+//vectorise image to set detail level
+
+//upload vectorised image
+//export dna
+//upload dna
+//export svg
+//upload svg
+
 var IMG_INIT ="pya.png", // mona_lisa_crop.jpg mondrian.jpg
 	DEPTH = 4,
 
