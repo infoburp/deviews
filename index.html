@@ -1,3 +1,4 @@
+<!--
 Distributed Evolutionary Vectorisation of Images as a Web Service
 
 user tasks:
@@ -25,3 +26,20 @@ vectorise image
 split animated image into frames
 
 split video into frames
+-->
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>deviews</title>
+ </head>
+ <body>
+  <script>
+   var worker = new Worker('worker.js');
+   worker.onmessage = function (event) {
+     document.getElementById('result').textContent = event.data;
+   };
+  </script>
+ </body>
+</html>
